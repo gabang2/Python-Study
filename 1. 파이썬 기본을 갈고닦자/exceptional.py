@@ -4,6 +4,7 @@ from math import log
 def convert(s):
     """int로 변환"""
     try:
+        print("일단 실행해보기")
         a = int(s)
         print("성공")
     except (ValueError, TypeError) as e:
