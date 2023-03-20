@@ -9,7 +9,7 @@ def generator1():
 def generator2():
     a = [10, 20, 30]
     for i in a:
-        print('yield {}'.format(i))
+        print('yield {} 전 출력'.format(i))
         yield i
 
 def generator3():
