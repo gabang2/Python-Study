@@ -8,7 +8,6 @@ class Flight:
         return self.__number
     
 class CountryName:
-
     def __init__(self, name):
         self.name = name
 
