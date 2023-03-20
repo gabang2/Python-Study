@@ -12,12 +12,12 @@ for i in c:
     print(i)
 
 # all - iterable 객체 함수
-print(all([1, 2, 3]))
-print(all([0, 2, 3]))
+print(all([1, 2, 3]))           #True
+print(all([0, 2, 3]))           #False
 
 # any - iterable객체 함수
-print(any([0, 2, 3]))
-print(any([False, [], 0]))
+print(any([0, 2, 3]))            #True
+print(any([False, [], 0]))       #False
 
 # zip - iterable객체 함수
 a = zip([1, 2, 3], (4, 5, 6))
