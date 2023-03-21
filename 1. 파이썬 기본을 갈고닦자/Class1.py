@@ -1,3 +1,4 @@
+'''인스턴스 생성'''
 class Flight:
     def __init__(self, number): # 객체 속성 초기화 역할
         if not number > 0:

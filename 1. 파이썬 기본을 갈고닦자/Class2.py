@@ -1,3 +1,4 @@
+'''다중 상속'''
 class Country:
     province_list2 = [2]
     pass
